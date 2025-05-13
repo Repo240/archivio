@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Repo240/archivio.git'  // cambia con il tuo
+                git branch: 'main', url: 'https://github.com/Repo240/archivio.git'
             }
         }
         stage('Build') {

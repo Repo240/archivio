@@ -1,0 +1,43 @@
+# Eclipse specific
+.project
+.classpath
+.settings/
+
+# Build output
+bin/
+build/
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java class files
+*.class
+
+# Logs
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IntelliJ IDEA (se usi anche IntelliJ)
+*.iml
+.idea/
+
+# Environment variables
+.env
+
+# VSCode settings (se lo apri anche con VSCode)
+.vscode/
